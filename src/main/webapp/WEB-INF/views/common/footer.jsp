@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-    
+	
 	<div class="footer-dark">
         <footer>
             <div class="container">
@@ -20,11 +20,7 @@
         </footer>
     </div>
     
-    <script src="${pageContext.request.contextPath }/assets/js/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath }/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="${pageContext.request.contextPath }/assets/js/smoothproducts.min.js"></script>
-    <script src="${pageContext.request.contextPath }/assets/js/theme.js"></script>
+    
     
 </body>
 </html>

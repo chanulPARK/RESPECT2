@@ -9,14 +9,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Hello Spring</title>
+    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- 부트스트랩관련 라이브러리 -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<!-- 사용자작성 css -->
-<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/style.css" />
+
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<%-- <script src="${pageContext.request.contextPath }/resources/assets/js/jquery.min.js"></script> --%>
+<%-- <script src="${pageContext.request.contextPath }/resources/assets/bootstrap/js/bootstrap.min.js"></script> --%>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<link rel="stylesheet" href="${path }/resources/css/Footer-Dark.css">
 
 <style type="text/css">
 	*{
@@ -83,7 +87,7 @@
         <div class="container">
             <nav class="navbar navbar-light navbar-expand-md">
                     <a class="navbar-brand" href="#">
-                        <img class="img-fluid" src="image/if_viadeo_2308135.png" style="max-width: 70px; max-height: 70px;">
+                        <!-- <img class="img-fluid" src="image/if_viadeo_2308135.png" style="max-width: 70px; max-height: 70px;"> -->
                     </a>
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
                         <span class="sr-only">Toggle navigation</span>
